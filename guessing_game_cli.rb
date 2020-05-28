@@ -5,5 +5,8 @@ def run_guessing_game
   case guess
   when guess == number
     puts "You guessed the correct number!"
+    when guess == 
   else 
-    puts ""
+    puts "Sorry! The computer guessed #{number}."
+  end
+  
