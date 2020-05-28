@@ -1,6 +1,6 @@
 def run_guessing_game 
   
-  number = rand(1..6)
+  number = rand(6)+1
   puts "Enter a guess between 1 and 6!"
   guess = gets.chomp 
   case guess
@@ -8,6 +8,8 @@ def run_guessing_game
       puts "Goodbye!"
   when guess == number
    puts "You guessed the correct number!"
+  else 
+  puts "Sorry! The computer guessed #{number}."
  end
  
  
