@@ -5,11 +5,11 @@ def run_guessing_game
   guess = gets.chomp 
   case guess
   when guess == "exit"
-      puts "Goodbye!"
+      puts "/Goodbye!/"
   when guess == number
-   puts "You guessed the correct number!"
+   puts "/You guessed the correct number!/"
   else 
-  puts "Sorry! The computer guessed #{number}."
+  puts "/Sorry! The computer guessed #{number}./"
  end
  
  
