@@ -10,7 +10,7 @@ def run_guessing_game
     puts "/Sorry! The computer guessed #{random_number}./"
   elsif user_input == random_number.to_s
     puts "/You guessed the correct number!/"
-  else
-    puts "Invalid"
+  #else
+   # puts "Invalid"
   end
 end
