@@ -5,8 +5,9 @@ def run_guessing_game
   case guess
   when guess == number
     puts "You guessed the correct number!"
-    when guess == 
+    when guess == "exit"
+      puts "Goodbye!"
   else 
     puts "Sorry! The computer guessed #{number}."
   end
-  
+end
