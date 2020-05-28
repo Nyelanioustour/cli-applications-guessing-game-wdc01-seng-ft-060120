@@ -4,4 +4,6 @@ def run_guessing_game
   guess = get.chomp 
   case guess
   when guess == number
+    puts "You guessed the correct number!"
+  else 
     puts ""
